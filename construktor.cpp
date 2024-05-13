@@ -23,3 +23,7 @@ class Mahasiswa{
     };
 };
 
+Mahasiswa::Mahasiswa(string iNama){
+   
+    nama = iNama;
+}
