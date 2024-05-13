@@ -18,3 +18,22 @@ class Mahasiswa
        }
 };
 
+int Mahasiswa::nim = 20;
+void Mahasiswa::setID()
+{
+   id = nim++;
+}
+
+int main(){
+     Mahasiswa mhs1("Lia Kurnia");
+     Mahasiswa mhs2("Asroni");
+     Mahasiswa mhs3("Andi Kurniawan");
+     Mahasiswa mhs4("Joko Purba");
+
+        mhs1.printAll();
+
+        mhs2.printAll();
+        mhs3.printAll();
+        mhs4.printAll();
+        return 0;
+}
